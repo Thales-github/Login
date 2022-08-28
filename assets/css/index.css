@@ -1,0 +1,12 @@
+.columns {
+    margin: 10% 0 0 37%;
+}
+
+.column {
+    margin: 8% 0 0 37%;
+}
+
+.message {
+    min-width: 400px;
+    text-align: center;
+}

@@ -1,12 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/bulma/css/bulma.css">
+    <link rel="stylesheet" href="assets/css/index.css">
     <title>Login</title>
 </head>
+
 <body>
-    
+    <div class="column column is-one-quarter">
+        <form action="#" method="post" id="frmLogin">
+            <div class="field">
+                <label class="label" for="inputLogin">Login</label>
+                <div class="control">
+                    <input type="text" id="inputLogin" class="input" placeholder="Digite seu login*">
+                </div>
+            </div>
+
+            <div class="field">
+                <label class="label" for="inputSenha">Senha</label>
+                <div class="control">
+                    <input type="password" id="inputSenha" class="input" placeholder="Digite sua senha*">
+                </div>
+
+            </div>
+            <button type="submit" class="button is-primary is-rounded" id="btnEnviar">Enviar</button>
+            <button type="reset" class="button is-danger is-rounded" id="btnCancelar">Cancelar</button>
+        </form>
+    </div>
+
+
+
+    <script src="assets/js/sweetAlert/sweetalert.min.js"></script>
+    <script src="assets/js/bloqueiaEnvioFormulario.js"></script>
+    <script src="assets/js/salvarDados.js"></script>
 </body>
+
 </html>
