@@ -8,7 +8,6 @@ btnEnviar.addEventListener("click", () => {
     if (!inputLogin || !inputSenha) {
         swal({
             title: "Preencha todos os campos!",
-            // text: "You clicked the button!",
             icon: "error",
         });
         return;
@@ -16,6 +15,5 @@ btnEnviar.addEventListener("click", () => {
     sessionStorage.setItem("login", inputLogin);
     sessionStorage.setItem("senha", inputSenha);
 
-    window.location.href = "/login.html";
-    // console.log([inputLogin, inputSenha]);
+    window.location.href = "http://systemforweb.com.br/ptg/login.html";
 });
