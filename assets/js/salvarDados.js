@@ -15,5 +15,5 @@ btnEnviar.addEventListener("click", () => {
     sessionStorage.setItem("login", inputLogin);
     sessionStorage.setItem("senha", inputSenha);
 
-    window.location.href = "http://systemforweb.com.br/ptg/login.html";
+    window.location.href = "login.html";
 });
